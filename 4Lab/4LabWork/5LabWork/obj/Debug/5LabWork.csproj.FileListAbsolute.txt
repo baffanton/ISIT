@@ -1,0 +1,8 @@
+C:\Users\Антон\Desktop\Учеба. Дом\4 курс\7 семестр\Гоша\4 лабораторная работа\5LabWork\5LabWork\bin\Debug\5LabWork.exe.config
+C:\Users\Антон\Desktop\Учеба. Дом\4 курс\7 семестр\Гоша\4 лабораторная работа\5LabWork\5LabWork\bin\Debug\5LabWork.exe
+C:\Users\Антон\Desktop\Учеба. Дом\4 курс\7 семестр\Гоша\4 лабораторная работа\5LabWork\5LabWork\bin\Debug\5LabWork.pdb
+C:\Users\Антон\Desktop\Учеба. Дом\4 курс\7 семестр\Гоша\4 лабораторная работа\5LabWork\5LabWork\obj\Debug\5LabWork.csproj.AssemblyReference.cache
+C:\Users\Антон\Desktop\Учеба. Дом\4 курс\7 семестр\Гоша\4 лабораторная работа\5LabWork\5LabWork\obj\Debug\5LabWork.csproj.SuggestedBindingRedirects.cache
+C:\Users\Антон\Desktop\Учеба. Дом\4 курс\7 семестр\Гоша\4 лабораторная работа\5LabWork\5LabWork\obj\Debug\5LabWork.csproj.CoreCompileInputs.cache
+C:\Users\Антон\Desktop\Учеба. Дом\4 курс\7 семестр\Гоша\4 лабораторная работа\5LabWork\5LabWork\obj\Debug\5LabWork.exe
+C:\Users\Антон\Desktop\Учеба. Дом\4 курс\7 семестр\Гоша\4 лабораторная работа\5LabWork\5LabWork\obj\Debug\5LabWork.pdb
