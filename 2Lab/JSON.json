@@ -1,0 +1,227 @@
+{
+    "Facts": [
+        {
+            "decision": null,
+            "sympathy": null,
+            "longStories": null,
+            "actingSkills": null,
+            "interestingPersonality": null,
+            "characterDevelopment": null,
+            "muchTime": null,
+            "feelings": null,
+            "countFilms": null,
+            "outsideMovies": null,
+            "actorInfluence": null,
+            "gettingCharacters": null,
+            "lotOfCharacters": null,
+            "workingOrStuding": null,
+            "family": null,
+            "temporaryVariable": null
+        }
+    ],
+    "Rules": [
+        {
+            "callFunction": "newValueForVariable",
+            "variable": "decision",
+            "conditions": [
+                {
+                    "sympathy": "yes",
+                    "decision": null
+                },
+                {
+                    "longStories": "yes",
+                    "decision": null
+                }
+            ],
+            "recordValue": "Сериалы"
+        },
+        {
+            "callFunction": "newValueForVariable",
+            "variable": "sympathy",
+            "conditions": [
+                {
+                    "actingSkills": "yes",
+                    "interestingPersonality": "yes",
+                    "decision": null,
+                    "sympathy": null
+                }
+            ],
+            "recordValue": "yes"
+        },
+        {
+            "callFunction": "newValueForVariable",
+            "variable": "longStories",
+            "conditions": [
+                {
+                    "characterDevelopment": "yes",
+                    "muchTime": "yes",
+                    "decision": null,
+                    "longStories": null
+                }
+            ],
+            "recordValue": "yes"
+        },
+        {
+            "callFunction":"newValueForVariable",
+            "variable": "actingSkills",
+            "conditions": [
+                {
+                    "feelings": "yes",
+                    "countFilms": ">2",
+                    "decision": null,
+                    "actingSkills": null
+                }
+            ],
+            "recordValue": "yes"
+        },
+        {
+            "callFunction": "newValueForVariable",
+            "variable": "interestingPersonality",
+            "conditions": [
+                {
+                    "outsideMovies": "yes",
+                    "decision": null,
+                    "interestingPersonality": null
+                },
+                {
+                    "actorInfluence": "yes",
+                    "decision": null,
+                    "interestingPersonality": null
+                }
+            ],
+            "recordValue": "yes"
+        },
+        {
+            "callFunction": "newValueForVariable",
+            "variable": "characterDevelopment",
+            "conditions": [
+                {
+                    "gettingCharacters": "yes",
+                    "decision": null,
+                    "characterDevelopment": null
+                },
+                {
+                    "lotOfCharacters": "yes",
+                    "decision": null,
+                    "characterDevelopment": null
+                }
+            ],
+            "recordValue": "yes"
+        },
+        {
+            "callFunction": "newValueForVariable",
+            "variable": "muchTime",
+            "conditions": [
+                {
+                    "workingOrStuding": "no",
+                    "family": "no",
+                    "decision": null,
+                    "muchTime": null
+                }
+            ],
+            "recordValue": "yes"
+        },
+        {
+            "callFunction": "yesOrNo",
+            "variable": "feelings",
+            "conditions": [
+                {
+                    "decision": null,
+                    "feelings": null
+                }
+            ],
+            "question": "Вызывает ли у вас эмоции игра какого-нибудь актера?"
+        },
+        {
+            "callFunction": "testValue",
+            "variable": "temporaryVariable",
+            "conditions": [
+                {
+                    "not": [
+                        {
+                            "countFilms": null
+                        }
+                    ],
+                    "decision": null
+                }
+            ]
+        },
+        {
+            "callFunction": "askValue",
+            "variable": "countFilms",
+            "conditions": [
+                {
+                    "temporaryVariable": null,
+                    "decision": null
+                }
+            ],
+            "question": "Сколько фильмов или сериалов вы смотрели с данным актером?"
+        },
+        {
+            "callFunction": "yesOrNo",
+            "variable": "outsideMovies",
+            "conditions": [
+                {
+                    "decision": null,
+                    "outsideMovies": null
+                }
+            ],
+            "question": "Следите за актером вне картин?"
+        },
+        {
+            "callFunction": "yesOrNo",
+            "variable": "actorInfluence",
+            "conditions": [
+                {
+                    "decision": null,
+                    "actorInfluence": null
+                }
+            ],
+            "question": "Влиял ли на вас поступок актера?"
+        },
+        {
+            "callFunction": "yesOrNo",
+            "variable": "gettingCharacters",
+            "conditions": [
+                {
+                    "decision": null,
+                    "gettingCharacters": null
+                }
+            ],
+            "question": "Вы проникаетесь персонажами и их характерами?"
+        },
+        {
+            "callFunction": "yesOrNo",
+            "variable": "lotOfCharacters",
+            "conditions": [
+                {
+                    "decision": null,
+                    "lotOfCharacters": null
+                }
+            ],
+            "question": "Вам интересно следить за большим количеством персонажей?"
+        },
+        {
+            "callFunction": "yesOrNo",
+            "variable": "workingOrStuding",
+            "conditions": [
+                {
+                    "decision": null,
+                    "workingOrStuding": null
+                }
+            ],
+            "question": "Вы учитесь/работаете?"
+        },
+        {
+            "callFunction": "yesOrNo",
+            "variable": "family",
+            "conditions": [
+                {
+                    "decision": null,
+                    "family": null
+                }
+            ],
+            "question": "У вас есть своя семья?"
+        }
+    ]
+}
